@@ -1,7 +1,7 @@
 export const App = () => {
 	return (
 		<>
-			<p>HELLO gi!!!!!!!!!!!!</p>
+			<p>HELLO !!!</p>
 		</>
 	);
 };

@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 const rootElement = document.getElementById("root");
 createRoot(rootElement).render(
 	<React.StrictMode>
-		<BrowserRouter basename="/test">
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<App />
 		</BrowserRouter>
 	</React.StrictMode>
